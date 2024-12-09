@@ -34,7 +34,7 @@ export function FloatingNavDemo() {
 
     {
       name: "Contact",
-      link: "https://portfolio-chinmay-sawant.vercel.app/#contact",
+      link: "https://portfolio-chinmay-sawant.vercel.app/#contacts",
       icon: <BiPhone className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
   ];
