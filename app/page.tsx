@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col  mx-auto  text-white overflow-hidden">
       <Hero />
-      <div className="w-full relative lg:-top-16 " id="work">
+      <div className="w-full relative lg:-top-16 " id="projects">
         <LampDemo />
         <div className="relative -top-44">
           <ThreeDCards />

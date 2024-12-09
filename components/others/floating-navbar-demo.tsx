@@ -7,26 +7,26 @@ export function FloatingNavDemo() {
   const navItems = [
     {
       name: "About",
-      link: "https://github.com/ChinmayNoob",
+      link: "https://portfolio-chinmay-sawant.vercel.app/#about",
       icon: <BiUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Projects",
-      link: "https://github.com/ChinmayNoob",
+      link: "https://portfolio-chinmay-sawant.vercel.app/#projects",
       icon: (
         <RiSuitcase3Line className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {
       name: "Skills",
-      link: "https://github.com/ChinmayNoob",
+      link: "https://portfolio-chinmay-sawant.vercel.app/#skills",
       icon: (
         <RiToolsFill className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {
       name: "Achievements",
-      link: "https://github.com/ChinmayNoob",
+      link: "https://portfolio-chinmay-sawant.vercel.app/#achievements",
       icon: (
         <RiAwardFill className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
@@ -34,7 +34,7 @@ export function FloatingNavDemo() {
 
     {
       name: "Contact",
-      link: "https://github.com/ChinmayNoob",
+      link: "https://portfolio-chinmay-sawant.vercel.app/#contact",
       icon: <BiPhone className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
   ];
