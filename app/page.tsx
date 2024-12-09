@@ -1,5 +1,6 @@
 import AboutMe from "@/components/aboutme";
 import Achievements from "@/components/achievements";
+import Contact from "@/components/contact";
 import Hero from "@/components/hero";
 import { LampDemo } from "@/components/others/LampDemo";
 import ThreeDCards from "@/components/projects";
@@ -32,6 +33,12 @@ export default function Home() {
         id="achievements"
       >
         <Achievements />
+      </div>
+      <div
+        className=" flex justify-center relative z-50 ml-4 bg-black-100 h-full w-full mt-10 mb-30"
+        id="contacts"
+      >
+        <Contact />
       </div>
     </main>
 
