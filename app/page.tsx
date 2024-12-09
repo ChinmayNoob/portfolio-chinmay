@@ -36,7 +36,7 @@ export default function Home() {
       </div>
       <div
         className=" flex justify-center relative z-50 ml-4 bg-black-100 h-full w-full mt-10 mb-30"
-        id="contacts"
+        id="contact"
       >
         <Contact />
       </div>
