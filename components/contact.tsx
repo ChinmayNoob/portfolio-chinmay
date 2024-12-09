@@ -7,43 +7,43 @@ const Contact = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
-  
+
     const handleSubmit = async (e: React.FormEvent) => {
-      e.preventDefault();
-      setIsSubmitting(true);
-  
-      try {
-        const response = await fetch('/api/mail', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ email, message }),
-        });
-  
-        const result = await response.json();
-  
-        if (response.ok) {
-          toast.success('Email sent successfully!', {
-            description: 'I will get back to you soon.',
-            duration: 4000,
-          });
-          setEmail('');
-          setMessage('');
-        } else {
-          toast.error('Failed to send email', {
-            description: result.error || 'Please try again later.',
-            duration: 4000,
-          });
+        e.preventDefault();
+        setIsSubmitting(true);
+
+        try {
+            const response = await fetch('/api/mail', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email, message }),
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                toast.success('Email sent successfully!', {
+                    description: 'I will get back to you soon.',
+                    duration: 4000,
+                });
+                setEmail('');
+                setMessage('');
+            } else {
+                toast.error('Failed to send email', {
+                    description: result.error || 'Please try again later.',
+                    duration: 4000,
+                });
+            }
+        } catch (error) {
+            toast.error('An error occurred', {
+                description: 'Please check your connection and try again.',
+                duration: 4000,
+            });
+        } finally {
+            setIsSubmitting(false);
         }
-      } catch (error) {
-        toast.error('An error occurred', {
-          description: 'Please check your connection and try again.',
-          duration: 4000,
-        });
-      } finally {
-        setIsSubmitting(false);
-      }
     };
 
     return (
@@ -72,7 +72,7 @@ const Contact = () => {
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder="Your email"
                         required
-                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-4 py-2 border rounded-md bg-black-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                     <textarea
                         value={message}
@@ -80,12 +80,12 @@ const Contact = () => {
                         placeholder="Your message"
                         required
                         rows={4}
-                        className="w-full h-48 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full h-48 px-4 py-2 border rounded-md bg-black-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                     <button
                         type="submit"
                         disabled={isSubmitting}
-                        className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-500 transition-colors disabled:opacity-50"
+                        className="w-full bg-blue-500 text-white py-2 rounded-md font-semibold hover:bg-blue-500 transition-colors disabled:opacity-50"
                     >
                         {isSubmitting ? 'Sending...' : 'Submit'}
                     </button>

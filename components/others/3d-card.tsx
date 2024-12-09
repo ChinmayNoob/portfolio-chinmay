@@ -60,23 +60,29 @@ export function ThreeDCard({
               <AnimatedTooltip items={stack} />
             </div>
           </CardItem>
-          <div className="flex gap-2 justify-center">
-            <CardItem translateZ={20} as="button" className="">
-              <Link
-                className="sm:px-4 sm:py-3 py-2 px-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold sm:text-lg text-sm"
-                href={link}
-              >
-                Learn More
-              </Link>
-            </CardItem>
-            <CardItem translateZ={20} as="button" className="">
-              <Link
-                className="sm:px-4 sm:py-3 py-2 px-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold sm:text-lg text-sm"
-                href={liveLink}
-              >
-                Live Demo
-              </Link>
-            </CardItem>
+          <div className="flex gap-2 justify-center flex-col lg:flex-row md:flex-row">
+            <div>
+              <CardItem translateZ={20} as="button" className="mb-2 w-full">
+                <Link
+                  className="sm:px-4 sm:py-3 py-2 px-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold sm:text-lg text-sm"
+                  href={link}
+                >
+                  Learn More
+                </Link>
+              </CardItem>
+
+            </div>
+            <div>
+              <CardItem translateZ={20} as="button" className="mb-2 w-full">
+                <Link
+                  className="sm:px-4 sm:py-3 py-2 px-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold sm:text-lg text-sm"
+                  href={liveLink}
+                >
+                  Live Demo
+                </Link>
+              </CardItem>
+
+            </div>
           </div>
         </div>
       </CardBody>

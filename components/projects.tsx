@@ -27,7 +27,7 @@ const Projects = [
             { id: 3, name: "React", image: "/react-color.svg" },
             { id: 4, name: "NodeJS", image: "/nodedotjs-color.svg" },
         ],
-        link: "/projects/bookings-app",
+        link: "/",
         liveLink: "https://github.com/ChinmayNoob",
     },
     {
@@ -40,21 +40,7 @@ const Projects = [
             { id: 3, name: "React", image: "/react-color.svg" },
             { id: 4, name: "NodeJS", image: "/nodedotjs-color.svg" },
         ],
-        link: "/projects/bookings-app",
-        liveLink: "https://github.com/ChinmayNoob",
-
-    },
-    {
-        name: "Project-1",
-        image: "/image.png",
-        description: "Lorem Ipsum",
-        stack: [
-            { id: 1, name: "MongoDB", image: "/mongodb-color.svg" },
-            { id: 2, name: "Express", image: "/express-color.svg" },
-            { id: 3, name: "React", image: "/react-color.svg" },
-            { id: 4, name: "NodeJS", image: "/nodedotjs-color.svg" },
-        ],
-        link: "/projects/bookings-app",
+        link: "/",
         liveLink: "https://github.com/ChinmayNoob",
 
     },
@@ -68,7 +54,21 @@ const Projects = [
             { id: 3, name: "React", image: "/react-color.svg" },
             { id: 4, name: "NodeJS", image: "/nodedotjs-color.svg" },
         ],
-        link: "/projects/bookings-app",
+        link: "/",
+        liveLink: "https://github.com/ChinmayNoob",
+
+    },
+    {
+        name: "Project-1",
+        image: "/image.png",
+        description: "Lorem Ipsum",
+        stack: [
+            { id: 1, name: "MongoDB", image: "/mongodb-color.svg" },
+            { id: 2, name: "Express", image: "/express-color.svg" },
+            { id: 3, name: "React", image: "/react-color.svg" },
+            { id: 4, name: "NodeJS", image: "/nodedotjs-color.svg" },
+        ],
+        link: "/",
         liveLink: "https://github.com/ChinmayNoob",
 
     },
