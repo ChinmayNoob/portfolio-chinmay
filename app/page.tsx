@@ -1,8 +1,9 @@
 import AboutMe from "@/components/aboutme";
+import Achievements from "@/components/achievements";
 import Hero from "@/components/hero";
 import { LampDemo } from "@/components/others/LampDemo";
 import ThreeDCards from "@/components/projects";
-import Image from "next/image";
+import Skills from "@/components/skills";
 
 export default function Home() {
   return (
@@ -19,6 +20,18 @@ export default function Home() {
         id="aboutMe"
       >
         <AboutMe />
+      </div>
+      <div
+        className=" flex justify-center relative z-50 ml-4 bg-black-100 h-full w-full mt-10 mb-30"
+        id="skills"
+      >
+        <Skills />
+      </div>
+      <div
+        className=" flex justify-center relative z-50 ml-4 bg-black-100 h-full w-full mt-10 mb-30"
+        id="achievements"
+      >
+        <Achievements />
       </div>
     </main>
 
