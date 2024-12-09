@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div
         className=" flex justify-center relative z-50 ml-4 bg-black-100 h-full w-full mb-20"
-        id="aboutMe"
+        id="about"
       >
         <AboutMe />
       </div>
