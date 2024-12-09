@@ -78,7 +78,7 @@ const Hero = () => {
             and Full Stack Developer based in Vadodara.
           </p>
           <div className="w-full flex justify-center gap-2">
-            <Link href="#work" scroll={true} className="mt-8">
+            <Link href="#projects" scroll={true} className="mt-8">
               <MagicButton />
             </Link>
             <Link href="https://drive.google.com/file/d/1IuhFo_5iZ9FHvnbhRA14gSQ5MyXY9ziO/view" target="_blank" className="mt-8">
