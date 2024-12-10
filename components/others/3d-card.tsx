@@ -60,7 +60,7 @@ export function ThreeDCard({
               <AnimatedTooltip items={stack} />
             </div>
           </CardItem>
-          <div className="flex gap-2 justify-center flex-col lg:flex-row md:flex-row">
+          <div className="flex gap-2 justify-center flex-col lg:flex-row md:gap-6">
             <div>
               <CardItem translateZ={20} as="button" className="mb-2 w-full">
                 <Link

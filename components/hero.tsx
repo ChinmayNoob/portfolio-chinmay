@@ -7,6 +7,9 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Link from "next/link";
 import DownloadCvButton from "./ui/DownloadCVButton";
+import HeroMail from "./ui/hero-mail";
+import HeroGithub from "./ui/hero-github";
+import HeroLinkedin from "./ui/hero-linkedin";
 const Hero = () => {
   const words = ["a Web Developer", "a Competitive Programmer", "a Passionate Learner"]
   const [quote, setQuote] = useState(learningQuotes[0]);
@@ -83,6 +86,17 @@ const Hero = () => {
             </Link>
             <Link href="https://drive.google.com/file/d/1IuhFo_5iZ9FHvnbhRA14gSQ5MyXY9ziO/view" target="_blank" className="mt-8">
               <DownloadCvButton />
+            </Link>
+          </div>
+          <div className="w-full flex justify-center gap-2">
+            <Link href={"mailto:chinmaypvt04@gmail.com"} target="_blank" className="mt-8">
+              <HeroMail />
+            </Link>
+            <Link href={"https://github.com/ChinmayNoob"} target="_blank" className="mt-8">
+              <HeroGithub />
+            </Link>
+            <Link href={"https://www.linkedin.com/in/chinmay-sawant0408/"} target="_blank" className="mt-8">
+              <HeroLinkedin />
             </Link>
           </div>
 

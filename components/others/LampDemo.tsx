@@ -14,7 +14,7 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 text-blue-300 text-center text-5xl font-medium  sm:text-7xl"
+        className="mt-8 text-blue-300 text-center text-5xl font-bold sm:text-7xl"
       >
         Projects
       </motion.h1>
