@@ -7,26 +7,26 @@ export function FloatingNavDemo() {
   const navItems = [
     {
       name: "About",
-      link: "https://chinmayy.me/#about",
+      link: "/#about",
       icon: <BiUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Projects",
-      link: "https://chinmayy.me/#projects",
+      link: "/#projects",
       icon: (
         <RiSuitcase3Line className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {
       name: "Skills",
-      link: "https://chinmayy.me/#skills",
+      link: "/#skills",
       icon: (
         <RiToolsFill className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {
       name: "Achievements",
-      link: "https://chinmayy.me/#achievements",
+      link: "/#achievements",
       icon: (
         <RiAwardFill className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
