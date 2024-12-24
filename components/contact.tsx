@@ -13,7 +13,7 @@ const Contact = () => {
         setIsSubmitting(true);
 
         try {
-            const response = await fetch('/api/mail', {
+            const response = await fetch('https://chinmayy.me'+'/api/mail', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
