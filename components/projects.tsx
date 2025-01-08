@@ -18,17 +18,17 @@ export default ThreeDCards;
 
 const Projects = [
     {
-        name: "Project-1",
-        image: "/image.png",
-        description: "Lorem Ipsum",
+        name: "Jhoom",
+        image: "/projects/jhoom.png",
+        description: "web-based video-conferencing platform",
         stack: [
-            { id: 1, name: "MongoDB", image: "/mongodb-color.svg" },
+            { id: 1, name: "MongoDB", image: "/nextdotjs-color.svg" },
             { id: 2, name: "Express", image: "/express-color.svg" },
             { id: 3, name: "React", image: "/react-color.svg" },
-            { id: 4, name: "NodeJS", image: "/nodedotjs-color.svg" },
+            { id: 4, name: "NodeJS", image: "/typescript-color.svg" },
         ],
         link: "/",
-        liveLink: "https://github.com/ChinmayNoob",
+        liveLink: "https://videoconferenceapp.vercel.app/",
     },
     {
         name: "Project-1",
