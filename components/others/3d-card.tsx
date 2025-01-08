@@ -67,7 +67,7 @@ export function ThreeDCard({
                   className="sm:px-4 sm:py-3 py-2 px-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold sm:text-lg text-sm"
                   href={link}
                 >
-                  Learn More
+                  Github Repo
                 </Link>
               </CardItem>
 
